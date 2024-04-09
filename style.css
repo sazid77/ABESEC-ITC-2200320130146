@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ body {
+   
+    background-color: rgb(74, 74, 74);
+ }
+
+.Box1{
+    padding: 30px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px white;
+    width: 400px;
+    height: 400px;
+
+}
+.heading{
+   color:greenyellow;
+   padding: 5px;
+}
+
+#temp{ 
+    padding: 15px;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+}
+.txt{
+    padding: 3px;
+    position: absolute;
+    right: 100px;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.747);
+    cursor: pointer;
+}
+#btn{
+    
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(13, 236, 233);
+}
+
+ 
+#ans{
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+    width: 350px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px ;
+    background-color: aliceblue;
+    
+}
+#btn2{
+    position: absolute;
+    right: 40px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(13, 236, 233);
+}
